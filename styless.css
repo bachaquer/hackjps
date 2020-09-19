@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #509950;
+	font-size: 23px;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+/*HEADER*/
+header{
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding-left: 60px;
+	padding-top: 8px;
+	background-color: #111111;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 30px;
+}
+#fotochka{
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background-image: url(https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg);
+	background-repeat: no-repeat; 
+	opacity: .6;
+	background-size: cover;
+}
+/*F HEADER*/
+
+/*MAINCONT*/
+#main{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	padding: 10px;
+	height: 100%;
+	display: block;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid black;
+	box-shadow: 0 0 10px black;
+}
+/*F MAINCONT*/
+
+/*FOOTER*/
+#futer{
+	display: block;
+	width: 100%;
+	background-color: #222222;
+	text-align: center;
+	height: 200px;
+/*	opacity: .8;*/
+}
+#futer div{
+	padding-top: 170px;
+}
+/*F FOOTER*/
