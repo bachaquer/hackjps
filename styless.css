@@ -72,8 +72,20 @@ ul.topnav li.right {float: right;}
   	text-decoration: none;
   	font-size: 30px;
 }
-
-@media screen and (max-width: 600px) {
+#eksh{
+	transition-property: font-size, color;
+	transition: 0.2s;
+}
+#eksh:hover{
+	font-size: 60px;
+	color: #0c1685;
+}
+@media (min-width: 661px) and (max-width: 832px){
+	#about,#contact{
+		display: none;
+	}
+}
+@media screen and (max-width: 660px) {
   ul.topnav li.right, 
   ul.topnav li, #namee {float: none;}
 
@@ -83,7 +95,7 @@ ul.topnav li.right {float: right;}
   	font-size: 40px;
   }
   #main{
-  	margin-top: 300px;
+  	margin-top: 400px;
   }
 }
 
@@ -104,22 +116,51 @@ ul.topnav li.right {float: right;}
 	border: 1px solid black;
 	box-shadow: 0 0 10px black;
 }
+.cd{
+	padding-left: 20px; 
+}
+.bazar{
+	line-height: 1.5;
+}
+#goal{
+	color: black;
+	transition-property: color;
+	transition: 5s;
+	color: red;
+}
 /*F MAINCONT*/
 
 
 
 /*FOOTER*/
-#futer{
-	display: block;
+footer{
 	width: 100%;
 	background-color: #444444;
-	text-align: center;
-	height: 150px;
-	/*opacity: .8;*/
 }
-#futer div{
-	padding-top: 120px;
-	/*opacity: 1;*/
+ul.futer{
+	display: block;
+  	color: white;
+	/*text-align: center;*/
+	padding-top: 20px; 
+	text-decoration: none;
+	font-size: 20px;
+	list-style-type: none;
+	line-height: 1.2;
+}
+ul.futer li a{
+	text-decoration: none;
+	color: black
+}
+ul.futer li a:hover{
+	color: white;
+}
+#batya{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+#copy{
+	text-align: center;
+	color: black;
 }
 /*F FOOTER*/
 
